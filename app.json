@@ -1,0 +1,29 @@
+{
+  "tables": [
+    {
+      "name": "Employees",
+      "data": [
+        {"Name": "John Doe", "Age": 30, "City": "New York", "IsEmployee": true},
+        {"Name": "Jane Smith", "Age": 28, "City": "Los Angeles", "IsEmployee": true},
+        {"Name": "Alice Johnson", "Age": 35, "City": "Chicago", "IsEmployee": true}
+      ]
+    },
+    {
+      "name": "Products",
+      "data": [
+        {"Product": "Laptop", "Price": 999, "Category": "Electronics"},
+        {"Product": "Smartphone", "Price": 799, "Category": "Electronics"},
+        {"Product": "Tablet", "Price": 499, "Category": "Electronics"}
+      ]
+    },
+    {
+      "name": "Skills",
+      "data": [
+        {"Employee": "John Doe", "Skills": ["Python", "JavaScript"], "fnames": ["Bullshit", "Shitty"]},
+        {"Employee": "Jane Smith", "Skills": ["Java", "HTML"], "fnames": ["Bullshit", "Shitty"]},
+        {"Employee": "Alice Johnson", "Skills": ["C#", "SQL"], "fnames": ["Bullshit", "Shitty"]}
+      ]
+    }
+  ]
+}
+
